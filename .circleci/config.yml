@@ -1,13 +1,13 @@
 version: 2
- jobs:
-   build:
-     docker:
-       - image: karrlab/wc_env_dependencies:latest
-     steps:
-       - checkout
-       - run:
-           name: install package
-           command: pip install -U .
-       - run:
-           name: run test
-           command: python3 -m pytest ./tests/
+jobs:
+    build:
+        docker:
+            - image: karrlab/wc_env_dependencies:latest
+        steps:
+            - checkout
+            - run:
+               name: install package
+               command: pip install -U .
+            - run:
+               name: run test
+               command: python3 -m pytest ./tests/
