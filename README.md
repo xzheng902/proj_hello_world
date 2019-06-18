@@ -1,2 +1,2 @@
 # proj_hello_world
-A simple example python project
+This is a simple example python project
