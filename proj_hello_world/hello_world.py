@@ -9,4 +9,4 @@ def print_hello_world():
 
 def print_greetings(name):
     """Simple greetings function"""
-    print("Hello, ", name)
+    print("Hello,",name)
