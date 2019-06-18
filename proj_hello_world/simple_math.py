@@ -4,6 +4,7 @@
 # simple python script
 
 def mean(list):
+    """Function that returns the mean of a list"""
     sum = 0
     for num in list:
         sum += num
